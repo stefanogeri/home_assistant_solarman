@@ -1,6 +1,5 @@
 # Configuration file for Zucchetti HYD 3000/HYD 6000 (not HP version)
-# original yaml used "sofar_hyd3k-6k-es.yaml".
-# the names of the sensors have been kept identical to the original file so as not to erase the history in your home assistat
+# original yaml used "sofar_hyd3k-6k-es.yamlX
 # inverter family.
 
 # - name: ".........."  = sensor/parameter english name
