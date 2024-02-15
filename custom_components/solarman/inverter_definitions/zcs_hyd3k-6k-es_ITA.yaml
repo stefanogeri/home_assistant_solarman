@@ -759,7 +759,7 @@ parameters:
       isstr: true
       icon: 'mdi:barcode'
 
-    - name: "Inverter: Software Software DSPS"
+    - name: "Inverter: Software DSPS"
       class: ""
       state_class: ""      
       uom: ""
@@ -994,7 +994,7 @@ parameters:
       registers: [0x1017]
       icon: 'mdi:cogs'
  
-    - name: "Protezione Rete-Tensione (dd Sottotensione 2° Tempo di intervento )"
+    - name: "Protezione Rete-Tensione (da Sottotensione 2° Tempo di intervento )"
       class: ""
       state_class: ""
       uom: "ms"
