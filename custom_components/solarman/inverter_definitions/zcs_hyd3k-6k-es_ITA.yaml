@@ -347,7 +347,7 @@ parameters:
       registers: [0x020E]
       icon: 'mdi:battery-charging'
 
-    - name: "Batt: DOD (profondità di scarica)"
+    - name: "Batt: DOD (profondità di scarica EPS)"
       class: "Voltage"
       state_class: "measurement"
       uom: "%"
@@ -356,7 +356,7 @@ parameters:
       registers: [0x10B9] # (DOD indicates the maximum discharge amount. When the SOC<1-DOD, the inverter stops discharging, the inverter stops discharging according also to other conditions)
       icon: 'mdi:battery'
 
-    - name: "Batt: DOD (profondità di scarica EPS)"
+    - name: "Batt: DOD (profondità di scarica)"
       class: "Voltage"
       state_class: "measurement"
       uom: "%"
